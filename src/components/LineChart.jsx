@@ -9,7 +9,6 @@ const LineChart = ({ data }) => {
   const chartData = data.dates.map((date, index) => {
    
     const formattedDate = new Date(date).getFullYear();
-    
     return {
       date: formattedDate,
       cases: data.cases[index] / 1000000, 
@@ -93,8 +92,6 @@ const LineChart = ({ data }) => {
     </div>
   );
 };
-
-
 const sampleData = (data, numSamples) => {
   if (data.length <= numSamples) return data;
   
@@ -104,8 +101,6 @@ const sampleData = (data, numSamples) => {
   for (let i = 0; i < data.length; i += step) {
     result.push(data[i]);
   }
-  
-
   if (result[result.length - 1] !== data[data.length - 1]) {
     result.push(data[data.length - 1]);
   }
