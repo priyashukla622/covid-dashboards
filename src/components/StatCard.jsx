@@ -24,16 +24,16 @@ const StatCard = ({ title, value, color }) => {
     <div className="stat-card" style={{ display: 'flex', borderRadius: '8px', overflow: 'hidden', margin: '10px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
       <div className="stat-info" style={{ 
         backgroundColor: color, 
-        padding: '15px',
+        padding: '8px',
         width: '150px',
         color: 'white'
       }}>
         <div className="stat-title" style={{ fontWeight: 'bold', fontSize: '16px' }}>{title}</div>
-        <div className="stat-percentage" style={{ fontSize: '12px', opacity: 0.8 }}>{getPercentage()}%</div>
+        <div className="stat-percentage" style={{ fontSize: '10px', opacity: 0.8 }}>{getPercentage()}%</div>
       </div>
       <div className="stat-value-container" style={{ 
         backgroundColor: 'white',
-        padding: '15px',
+        padding: '8px',
         width: '80px',
         display: 'flex',
         alignItems: 'center',

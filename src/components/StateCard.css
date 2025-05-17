@@ -21,15 +21,14 @@
   
   .stat-title {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 10px;
     padding-left: 26px;
   }
   
   .stat-value {
-    font-size: 17px;
-    font-weight: 700;
+    font-size: 10px;
     background-color: white;
     color: #333;
-    padding: 21px;
+    padding: 20px;
     border-radius: 20px;
   }
