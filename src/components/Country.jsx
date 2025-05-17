@@ -27,14 +27,11 @@ const CountryDropdown = ({ countries, selectedCountry, onChange }) => {
       color: '#333',
     }),
   };
-
-  
   const formatOptionLabel = ({ label }) => (
     <div className="country-option">
       <span className='search-con'>{label}</span>
     </div>
   );
-
   return (
     <div className="country-dropdown">
       <div className="search-icon">
