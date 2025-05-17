@@ -6,8 +6,6 @@ const LineChart = ({ data }) => {
   if (!data || !data.dates || data.dates.length === 0) {
     return <div className="no-data">No data available</div>;
   }
-
-
   const chartData = data.dates.map((date, index) => {
    
     const formattedDate = new Date(date).getFullYear();

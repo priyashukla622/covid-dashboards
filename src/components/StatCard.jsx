@@ -26,10 +26,9 @@ const StatCard = ({ title, value, color }) => {
         backgroundColor: color, 
         padding: '8px',
         width: '150px',
-        color: 'white'
       }}>
-        <div className="stat-title" style={{ fontWeight: 'bold', fontSize: '16px' }}>{title}</div>
-        <div className="stat-percentage" style={{ fontSize: '10px', opacity: 0.8 }}>{getPercentage()}%</div>
+        <div className="stat-title" style={{ fontWeight: 'bold',}}>{title}</div>
+        <div className="stat-percentage" >{getPercentage()}%</div>
       </div>
       <div className="stat-value-container" style={{ 
         backgroundColor: 'white',
